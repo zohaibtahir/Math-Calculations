@@ -5,6 +5,12 @@ Linkedin: zohaibtahir24
 
 */
 
+// check if the number has 'e' then replace it with '*10^'
+if(number.includes('e') == true)
+        {
+            number = number.replace(new RegExp("e", "g"), '*10^');
+        }
+
 function SNtoRealNumber(num){
     if(num.includes('*') && num.includes('^')){
 		var splited_num_array = num.split('*');
