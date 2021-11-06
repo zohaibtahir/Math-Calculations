@@ -1,2 +1,6 @@
 # Math-Calculations
- The short math solutions
+ Javascript math problem solutions
+ # Includes
+ <ol>
+ <li>Scientific notation to real number</li>
+ </ol>
